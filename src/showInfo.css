@@ -1,0 +1,27 @@
+.item-wrapper {
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    box-shadow: inset -12px -8px 40px #464646;
+}
+
+.item-wrapper-img{
+    width: 150px;
+    height: 150px;
+}
+
+.item-wrapper a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.make_radius {
+    border-radius: 100%;
+}
