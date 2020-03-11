@@ -24,9 +24,14 @@ class App extends React.Component {
     }
     return (
       <div className="App">
-        <div className="App-title">
-          <h1>the highest</h1>
-        </div>
+        <div className="App-header">
+          <div className="App-title">
+            <h1>- the highest -</h1>
+          </div>
+          <div className="App-quotes">
+            <p>I don't know who invented high heels, but all women owe him a lot. - <i>Marilyn Monroe</i></p>
+          </div>
+        </div>  
         <div className="App-wrapper">
           {
             infos.map(info => (
