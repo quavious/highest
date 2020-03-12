@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import ShowInfo from './showInfo'
-import { renderIntoDocument } from 'react-dom/test-utils';
 
 
 class App extends React.Component {
