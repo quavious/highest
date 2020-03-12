@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ShowInfo from './showInfo'
+import { renderIntoDocument } from 'react-dom/test-utils';
 
 
 class App extends React.Component {
@@ -17,7 +18,7 @@ class App extends React.Component {
   }
   
   componentDidMount = async() => {
-    const infos = await require('./information/infos.json')
+    const infos = await require('./information/infos2.json')
     this.setState({isLoading: false, infos : infos})
     
     this.makeQuote();
@@ -48,6 +49,7 @@ class App extends React.Component {
                 key = {info.idx}
                 index = {info.idx} 
                 id = {info.id}
+                name = {info.name}
                 mainUrl = {info.main_url}
                 imgUrl = {info.imgUrl}
                 numbers = {info.subscribers}
