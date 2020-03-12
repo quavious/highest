@@ -35,6 +35,8 @@
   font-family: 'Jeju Hallasan', cursive;
   font-size: 16px;
   margin-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .App-quotes {
