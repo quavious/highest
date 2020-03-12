@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap');
+
 .item-wrapper {
     width: 230px;
     height: 280px;
@@ -41,7 +43,5 @@
 }
 
 .item-name {
-    font-weight: 400;
-    color: hotpink;
-    font-size: 20px
+    font-family: 'Nanum Pen Script', cursive;
 }
