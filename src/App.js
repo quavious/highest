@@ -18,6 +18,9 @@ class App extends React.Component {
   
   componentDidMount = async() => {
     const infos = await require('./information/infos2.json')
+    infos.sort(() => {
+      return Math.random() - Math.random()
+    })
     this.setState({isLoading: false, infos : infos})
     
     this.makeQuote();
